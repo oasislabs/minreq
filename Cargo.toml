@@ -44,3 +44,6 @@ name = "iterator"
 [[example]]
 name = "json"
 required-features = ["json-using-serde"]
+
+[patch.crates-io]
+ring = { git = "https://github.com/oasislabs/ring", branch = "sgx-target" }
